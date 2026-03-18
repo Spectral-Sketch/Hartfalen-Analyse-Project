@@ -1,5 +1,5 @@
 # Portfolio: Scientific Data Science & Reliability Engineering
-**Auteur:** [A. Schrijvers] | **Expertise:** MSc. Fysische Biologie (drs.) (STEM) & MSc. Wiskunde (ULO 1e graad)
+**Auteur:** [A. Schrijvers] | **Expertise:** MSc. Fysische Biologie (drs.) (STEM) & MSc. Wiskunde (1e graad)
 
 Dit portfolio focust op **Hazard Modelling** en **Anomaliedetectie** in complexe dynamische systemen. Middels stochastische modellen en spectrale analyse breng ik de betrouwbaarheid en faalkansen van systemen in kaart.
 
