@@ -1,14 +1,14 @@
 # Hartfalen-Analyse-Project
 Analyse van hartfalen data in tijd en frequentiedomein
-# Integrale Analyse van Hartfalen: Statistische Predictie & Signaalverwerking
+# Integrale Analyse van Hartfalen: Statistische Predictie & Spectrale Decompositie
 
 ## Projectoverzicht
-Dit project demonstreert een hybride aanpak van data-analyse, waarbij klinische statistiek wordt gecombineerd met geavanceerde signaalverwerkingstechnieken. Als eerstegraads wiskundige focus ik in dit onderzoek op de brug tussen abstracte modellen en medische diagnostiek.
+Dit project demonstreert een hybride aanpak van data-analyse, waarbij klinische statistiek wordt gecombineerd met spectrale decompositie. Als datawetenschapper met tweeledig een natuurwetenschappelijk alsook een mathematisch achtergrond, focus ik in dit onderzoek op de brug tussen abstracte modellen en medische diagnostiek.
 
 ### Kernonderdelen:
 1. **Klinische Correlatie-analyse:** Onderzoek naar de invloed van parameters zoals *ejection fraction* op de overlevingskans middels de Pearson-correlatiecoëfficiënt ($\rho$).
 2. **Spectrale Analyse (Fourier):** Simulatie van fysiologische signalen (ECG) en het elimineren van 50Hz netspanningsinterferentie middels **Fast Fourier Transform (FFT)** en **IIR Notch Filtering**.
-3. **Wiskundige Validatie:** Gebruik van LaTeX-formules voor de theoretische onderbouwing van de toegepaste algoritmes.
+3. **Wiskundige Validatie:** Gebruik van spectrale decompositie naast conventionele statistische methodieken voor de theoretische onderbouwing van de toegepaste algoritmes.
 
 ## Gebruikte Technologieën
 *   **Taal:** Python 3.14
