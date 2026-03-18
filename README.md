@@ -1,21 +1,30 @@
-# Hartfalen-Analyse-Project
-Analyse van hartfalen data in tijd en frequentiedomein
-# Integrale Analyse van Hartfalen: Statistische Predictie & Spectrale Decompositie
+# Scientific Data Science Portfolio: Wiskundige Modellering & Signaalverwerking
+**Auteur:** [A. Schrijvers] | **Expertise:** drs. Fysische Biologie (STEM)& 1e graads Wiskunde 
 
-## Projectoverzicht
-Dit project demonstreert een hybride aanpak van data-analyse, waarbij klinische statistiek wordt gecombineerd met spectrale decompositie. Als datawetenschapper met tweeledig een natuurwetenschappelijk alsook een mathematisch achtergrond, focus ik in dit onderzoek op de brug tussen abstracte modellen en medische diagnostiek.
-
-### Kernonderdelen:
-1. **Klinische Correlatie-analyse:** Onderzoek naar de invloed van parameters zoals *ejection fraction* op de overlevingskans middels de Pearson-correlatiecoëfficiënt ($\rho$).
-2. **Spectrale Analyse (Fourier):** Simulatie van fysiologische signalen (ECG) en het elimineren van 50Hz netspanningsinterferentie middels **Fast Fourier Transform (FFT)** en **IIR Notch Filtering**.
-3. **Wiskundige Validatie:** Gebruik van spectrale decompositie naast conventionele statistische methodieken voor de theoretische onderbouwing van de toegepaste algoritmes.
-
-## Gebruikte Technologieën
-*   **Taal:** Python 3.14
-*   **Bibliotheken:** Pandas (data), Seaborn/Matplotlib (visualisatie), SciPy (signaalverwerking/FFT).
-*   **Omgeving:** Jupyter Notebooks in Visual Studio Code.
-
-## Hoe dit project te bekijken
-Open het bestand `Hartfalen_Analyse_Spectraal_Model.ipynb` in de browser om de volledige analyse, inclusief gevisualiseerde grafieken en wiskundige duiding, te lezen.
+Dit portfolio demonstreert de toepassing van **Complexe Analyse** en **Stochastiek** op diverse domeinen. De focus ligt op het scheiden van signaal en ruis in complexe systemen.
 
 ---
+
+## Project 1: Klinische Statistiek & Hartfalen (Medische Sector)
+*Focus: Medische Biometrie & Risicopredictie*
+*   **Methodiek:** Pearson-correlatie ($\rho$), Verdelingsanalyses (KDE) en IIR Notch Filtering.
+*   **Resultaat:** Identificatie van kritieke fysiologische parameters en spectrale zuivering van ECG-data (50Hz ruis-eliminatie).
+*   [Bekijk Notebook](./Hartfalen_Analyse_Spectraal_Model.ipynb)
+
+## Project 2: Anomaliedetectie in Financiële Tijdreeksen (Bancair/Overheid)
+*Focus: Fraudedetectie & Risicomanagement*
+*   **Methodiek:** Log-Returns, Fourier-transformatie (FFT) en Z-score analyse ($|z| > 3\sigma$).
+*   **Resultaat:** Detectie van statistische anomalieën en marktcycli in de S&P 500 index. Dit model is direct schaalbaar naar fraudedetectie-systemen.
+*   [Bekijk Notebook](./Markt_Anomalie_Fourier_Analyse.ipynb)
+
+---
+
+## Wiskundig Fundament
+
+In beide projecten vormt de Fourier-integraal de basis voor de spectrale analyse:
+
+```math
+\hat{f}(\xi) = \int_{-\infty}^{\infty} f(t) e^{-2\pi i t \xi} \,dt
+
+
+
