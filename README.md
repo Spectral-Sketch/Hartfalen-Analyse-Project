@@ -12,11 +12,15 @@ Dit portfolio focust op **Hazard Modelling** en **Anomaliedetectie** in complexe
 *   **Wiskundig Inzicht:** Kwantificering van de invloed van procesvariabelen op de systeemintegriteit.
 *   [Bekijk Notebook](./Predictieve_Analyse_Kritieke_Systeemuitval.ipynb)
 
-## Project 2: Spectrale Anomaliedetectie in Dynamische Systemen
-*Focus: Fraudedetectie & Systeembewaking*
-*   **Methodiek:** Log-Returns, Fourier-transformatie (FFT) en Z-score analyse ($|z| > 3\sigma$).
-*   **Case Study:** Detectie van statistische afwijkingen en marktcycli. Dit model is direct toepasbaar op anomaliedetectie binnen het betalingsverkeer of fraudebestrijding.
-*   [Bekijk Notebook](./Markt_Anomalie_Fourier_Analyse.ipynb)
+
+
+## Project 2: Spectrale Anomaliedetectie & Interactieve Business Intelligence
+*Focus: Fraudedetectie, Systeembewaking & Marktmonitoring*
+* **Methodiek:** Log-Returns, Fourier-transformatie (FFT), Z-score modellering en **Power BI / DAX integratie**.
+* **Case Study:** Detectie van statistische marktafwijkingen vertaald naar een interactief dashboard. Gebruikers kunnen via een dynamische gevoeligheidsslicer zelf de drempelwaarden ($|z| > \sigma$) bepalen, waarbij uitschieters visueel worden gemarkeerd en de KPI-status live verspringt.
+* [Bekijk Notebook](./Markt_Anomalie_Fourier_Analyse.ipynb) | **Dashboard-preview hieronder:**
+*  
+<img width="878" height="496" alt="PowerBI Spectra" src="https://github.com/user-attachments/assets/ca6e2fe7-6361-4714-bf45-07e9fda63135" />
 
 ---
 
